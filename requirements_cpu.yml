@@ -1,0 +1,17 @@
+name: geograph_super_pred
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - ipykernel
+  - pytorch::pytorch>=1.10
+  - dglteam::dgl
+  - defaults::intel-openmp
+  - defaults::matplotlib
+
+  - conda-forge::verde
+  - conda-forge::rasterio
+  - conda-forge::pyvista
+  - conda-forge::optuna
+  - conda-forge::optuna-dashboard
